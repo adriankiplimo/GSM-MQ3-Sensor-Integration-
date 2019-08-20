@@ -115,8 +115,8 @@ void sendMessage()
 {
   mySerial.println("AT+CMGF=1"); // Configuring TEXT mode
   updateSerial();
-  mySerial.println("AT+CMGS=\"+254715455503\"");//change ZZ with country code and xxxxxxxxxxx with phone number to sms
+  mySerial.println("AT+CMGS=\"+254xxxxxxxxx\"");//change +254 with your country code and xxxxxxxxxxx with phone number to sms
   updateSerial();
   //text content
-  mySerial.print("Hello Abu, Alcohol has been detected in the driver's system. Here is his location: | https://www.google.com/maps/place/College+of+Physical+and+Biological+Sciences/@-1.2732378,36.8094171,15.89z/data=!4m5!3m4!1s0x182f1737396cf163:0x798d57fadab4c1c7!8m2!3d-1.2728643!4d36.8065408"); 
+  mySerial.print("Hello Adrian, Alcohol has been detected in the driver's system. Here is his location: | https://www.google.com/maps/place/College+of+Physical+and+Biological+Sciences/@-1.2732378,36.8094171,15.89z/data=!4m5!3m4!1s0x182f1737396cf163:0x798d57fadab4c1c7!8m2!3d-1.2728643!4d36.8065408"); 
 }
