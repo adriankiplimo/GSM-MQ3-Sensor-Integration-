@@ -7,3 +7,5 @@ On detection of high alcohol content by MQ3 Sensor in breatherlyzer, a signal is
 - MQ3 Ethanol sensor
 - Arduino Uno R3
 - SIM800L GSM/SMS Module
+- LCD 16X2
+- Piezo Buzzer
